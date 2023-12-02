@@ -1,0 +1,41 @@
+<html>
+    <head><title>Calculator</title>
+    <link rel="stylesheet" href="/home/rgukt/calc.css" >
+    <script src="/home/rgukt/calc.js"></script>
+    </head>
+    <body>
+    <center>
+        <table cellspacing="5px" cellpadding="5px"border="1">
+            <caption><h1 style="background-color: green;color:white;">SIMPLE CALCULATOR</h1></caption>
+            <tr>
+                <td colspan="3" bgcolor="black"><input type="text" id="t" class="te"></td>
+                <td align="center"><button class="b" type="button" onclick="ac()">AC</button></td>
+            </tr>
+            <tr>
+                <td  align="center"><button class="b" type="button" onclick="show('1')">1</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('2')">2</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('3')">3</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('+')">+</button></td>
+            </tr>
+            <tr>
+                <td  align="center"><button class="b" type="button" onclick="show('4')">4</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('5')">5</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('6')">6</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('-')">-</button></td>
+            </tr>
+            <tr>
+                <td  align="center"><button class="b" type="button" onclick="show('7')">7</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('8')">8</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('9')">9</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('*')">*</button></td>
+            </tr>
+            <tr>
+                <td  align="center"><button class="b" type="button" onclick="show('0')">0</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('%')">%</button></td>
+                <td  align="center"><button class="b" type="button" onclick="show('/')">/</button></td>
+                <td  align="center"><button class="b" type="button" onclick="cal()">=</button></td>
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>
