@@ -1,3 +1,3 @@
 This is my first Project
 <br>
-Author-Lahari Pattabathuni(RGUKT)
+Author-Lahari Pattabathuni(RGUKT-Ongole)
